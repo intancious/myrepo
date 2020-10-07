@@ -1,10 +1,4 @@
-# myrepo
-tugaskuliahklp1
+# ci-restserver
+Check the recent version at https://github.com/chriskacerguis/codeigniter-restserver
 
-anggota kelompok 1 :
-1. Intan Permatasari
-2. Robi Ardiansyah
-3. Kartika Adi
-4. Retno Anjarwati
-5. Achmad Faliqul Isbah
-
+My alternate version https://github.com/ardisaurus/old-rest-ci
