@@ -8,6 +8,8 @@ anggota kelompok 1 :
 4. Retno Anjarwati
 5. Achmad Faliqul Isbah
 
+mencoba pull
+
 # ci-restserver
 Check the recent version at https://github.com/chriskacerguis/codeigniter-restserver
 
