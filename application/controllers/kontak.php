@@ -60,7 +60,12 @@ class Kontak extends REST_Controller
         $this->db->where('id', $id);
         $update = $this->db->update('telepon', $data);
         if ($update) {
-            $this->response($data, 200);
+            if($id == null) {
+                $this->response(array('status' => 'id tidak boleh kosong'));
+            } else {
+                $this->response($data, 200);
+            }
+
         } else {
             $this->response(array('status' => 'fail', 502));
         }
@@ -75,7 +80,12 @@ class Kontak extends REST_Controller
         $this->db->where('id', $id);
         $delete = $this->db->delete('telepon');
         if ($delete) {
-            $this->response(array('status' => 'success'), 201);
+            if($id == null) {
+                $this->response(array('status' => 'id tidak boleh kosong'));
+            } else {
+                $this->response(array('status' => 'success'), 201);
+            }
+
         } else {
             $this->response(array('status' => 'fail', 502));
         }
